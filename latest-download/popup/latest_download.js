@@ -41,7 +41,7 @@ function initializeLatestDownload(downloadItems) {
 Search for the most recent download, and pass it to initializeLatestDownload()
 */
 var searching = browser.downloads.search({
-  limit: 1,
+  limit: 2,
   orderBy: ["-startTime"]
 });
 searching.then(initializeLatestDownload);
