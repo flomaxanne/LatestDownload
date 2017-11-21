@@ -1,1 +1,1 @@
-# LatestDownload
+# Latest Download Web Extension
